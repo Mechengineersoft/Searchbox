@@ -13,23 +13,7 @@ function showToast(message, duration = 2000) {
     }, duration);
 }
 
-<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', async () => {
-=======
-// Initialize search handlers
-const debouncedSearch = debounce(searchData, 500);
-
-// Add input event listeners
-function initializeSearchHandlers() {
-    const inputs = ['blockNo', 'partNo', 'thickness'];
-    inputs.forEach(id => {
-        document.getElementById(id).addEventListener('input', debouncedSearch);
-    });
-}
-
-document.addEventListener('DOMContentLoaded', async () => {
-    initializeSearchHandlers();
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     try {
         const loaderElement = document.querySelector('.app-loader');
         const response = await fetch(`${API_ENDPOINT}?blockNo=test`, {
@@ -62,31 +46,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 // API endpoint configuration
 const API_ENDPOINT = window.location.hostname === 'localhost' ? 'http://localhost:3000/api/data' : '/.netlify/functions/fetchData';
 
-<<<<<<< HEAD
-=======
-// Debounce function to limit API calls
-function debounce(func, wait) {
-    let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-    };
-}
-
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 // Search Data function
 async function searchData() {
     const blockNo = document.getElementById('blockNo').value;
     
     if (!blockNo) {
-<<<<<<< HEAD
         alert('Block No is required');
-=======
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
         return;
     }
 
@@ -274,9 +239,6 @@ function startVoiceInput(inputId) {
     recognition.onresult = (event) => {
         const transcript = event.results[0][0].transcript;
         document.getElementById(inputId).value = transcript;
-        if (inputId === 'blockNo') {
-            debouncedSearch();
-        }
     };
 
     recognition.onerror = (event) => {
@@ -285,7 +247,6 @@ function startVoiceInput(inputId) {
     };
 
     recognition.start();
-<<<<<<< HEAD
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -311,6 +272,4 @@ function debounce(func, wait) {
         clearTimeout(timeout);
         timeout = setTimeout(later, wait);
     };
-=======
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }

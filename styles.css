@@ -35,15 +35,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -136,47 +127,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -187,10 +154,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -384,15 +347,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -485,47 +439,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -536,10 +466,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -733,15 +659,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -834,47 +751,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -885,10 +778,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -1082,15 +971,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -1183,47 +1063,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -1234,10 +1090,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -1431,15 +1283,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -1532,47 +1375,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -1583,10 +1402,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -1780,15 +1595,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -1881,47 +1687,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -1932,10 +1714,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -2129,15 +1907,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -2230,47 +1999,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -2281,10 +2026,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -2478,15 +2219,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -2579,47 +2311,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -2630,10 +2338,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -2827,15 +2531,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -2928,47 +2623,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -2979,10 +2650,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -3176,15 +2843,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -3277,47 +2935,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -3328,10 +2962,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -3525,15 +3155,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -3626,47 +3247,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -3677,10 +3274,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -3874,15 +3467,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -3975,47 +3559,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -4026,10 +3586,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -4223,15 +3779,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -4324,47 +3871,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -4375,10 +3898,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -4572,15 +4091,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -4673,47 +4183,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -4724,10 +4210,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -4921,15 +4403,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -5022,47 +4495,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -5073,10 +4522,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -5270,15 +4715,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -5371,47 +4807,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -5422,10 +4834,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -5619,15 +5027,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -5720,47 +5119,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -5771,10 +5146,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -5968,15 +5339,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -6069,47 +5431,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -6120,10 +5458,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -6317,15 +5651,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -6418,47 +5743,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -6469,10 +5770,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -6666,15 +5963,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -6767,47 +6055,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -6818,10 +6082,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -7015,15 +6275,6 @@ h1 {
 .search-buttons {
     display: flex;
     gap: 10px;
-<<<<<<< HEAD
-=======
-    justify-content: flex-end;
-}
-
-.search-buttons button:last-child {
-    width: auto;
-    min-width: 100px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 input, button {
@@ -7116,47 +6367,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     margin: 0;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-=======
-    border-spacing: 0;
-    margin: 0;
-    table-layout: fixed;
-    display: table;
-    overflow-x: auto;
-    white-space: normal;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     -webkit-overflow-scrolling: touch;
 }
 
 th, td {
-<<<<<<< HEAD
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
     min-width: 60px;
     max-width: fit-content;
-=======
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: left;
-    min-width: 40px;
-    max-width: 80px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
     font-size: 14px;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-    word-wrap: break-word;
-    word-break: break-word;
-    vertical-align: middle;
-    line-height: 1.4;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 th {
@@ -7167,10 +6394,6 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
-    padding: 10px 8px;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
 }
 
 tr:nth-child(odd) {
@@ -7182,7 +6405,6 @@ tr:nth-child(even) {
 }
 
 #colorDisplay {
-<<<<<<< HEAD
     margin: 10px 0;
 }
 
@@ -7207,6 +6429,3 @@ tr:nth-child(even) {
     width: 100px;
     margin-left: auto;
 }
-=======
-    margin: 10px 0;
->>>>>>> 785188e590b589d9e8981468904a382e53ffd44f
