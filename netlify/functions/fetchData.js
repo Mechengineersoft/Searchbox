@@ -33,13 +33,13 @@ exports.handler = async (event, context) => {
     });
 
     const rows = response.data.values;
-    let filteredData = rows.filter((row) => row[0] === blockNo);
+    let filteredData = rows.filter((row) => row[0] && row[0].toLowerCase() === blockNo.toLowerCase());
 
     if (partNo) {
-      filteredData = filteredData.filter((row) => row[1] === partNo);
+      filteredData = filteredData.filter((row) => row[1] && row[1].toLowerCase() === partNo.toLowerCase());
     }
     if (thickness) {
-      filteredData = filteredData.filter((row) => row[2] === thickness);
+      filteredData = filteredData.filter((row) => row[2] && row[2].toLowerCase() === thickness.toLowerCase());
     }
 
     return {
