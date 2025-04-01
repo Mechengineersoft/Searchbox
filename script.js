@@ -239,11 +239,11 @@ function startVoiceInput(inputId) {
     recognition.onresult = (event) => {
         let transcript = event.results[0][0].transcript.trim().toLowerCase();
         
-        // Process single letters and numbers with expanded pronunciations
+        // Enhanced mapping for single letters and numbers with expanded pronunciations
         const singleLetterMap = {
             // Letter pronunciations with more variations
-            'hey': 'a', 'aye': 'a', 'ay': 'a', 'eh': 'a', 'alpha': 'a', 'able': 'a',
-            'bee': 'b', 'be': 'b', 'bravo': 'b', 'beta': 'b',
+            'hey': 'a', 'aye': 'a', 'ay': 'a', 'eh': 'a', 'alpha': 'a',
+            'bee': 'b', 'be': 'b', 'bravo': 'b',
             'see': 'c', 'sea': 'c', 'si': 'c', 'charlie': 'c',
             'dee': 'd', 'de': 'd', 'delta': 'd',
             'ee': 'e', 'e': 'e', 'eat': 'e', 'echo': 'e',
@@ -265,12 +265,12 @@ function startVoiceInput(inputId) {
             'you': 'u', 'yu': 'u', 'uniform': 'u',
             'vee': 'v', 've': 'v', 'victor': 'v',
             'double you': 'w', 'double u': 'w', 'dubya': 'w', 'whiskey': 'w',
-            'ex': 'x', 'ax': 'x', 'xray': 'x',
+            'ex': 'x', 'ax': 'x', 'x-ray': 'x',
             'why': 'y', 'ye': 'y', 'yankee': 'y',
             'zed': 'z', 'zee': 'z', 'zi': 'z', 'zulu': 'z',
             
             // Number pronunciations with more variations
-            'zero': '0', 'oh': '0', 'nil': '0', 'nought': '0', 'naught': '0',
+            'zero': '0', 'oh': '0', 'nil': '0', 'nought': '0',
             'one': '1', 'won': '1', 'want': '1', 'first': '1',
             'two': '2', 'to': '2', 'too': '2', 'second': '2',
             'three': '3', 'tree': '3', 'third': '3',
@@ -282,15 +282,19 @@ function startVoiceInput(inputId) {
             'nine': '9', 'niner': '9', 'ninth': '9'
         };
 
-        // Check for single letter/number pronunciations
-        if (singleLetterMap[transcript]) {
-            transcript = singleLetterMap[transcript];
-        } else if (transcript.length === 1) {
-            // Keep single character inputs as-is
-            transcript = transcript;
+        // Process single letters and numbers
+        const words = transcript.split(' ');
+        if (words.length === 1) {
+            // Single word input
+            if (singleLetterMap[transcript]) {
+                transcript = singleLetterMap[transcript];
+            } else if (transcript.length === 1) {
+                // Keep single character inputs as-is
+                transcript = transcript;
+            }
         } else {
-            // Remove spaces and convert number words
-            transcript = transcript.replace(/\s+/g, '');
+            // Multiple word input - check each word
+            transcript = words.map(word => singleLetterMap[word] || word).join('');
         }
 
         document.getElementById(inputId).value = transcript;
