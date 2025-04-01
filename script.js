@@ -237,7 +237,19 @@ function startVoiceInput(inputId) {
     };
 
     recognition.onresult = (event) => {
-        const transcript = event.results[0][0].transcript;
+        let transcript = event.results[0][0].transcript;
+        
+        // Process the transcript to remove spaces between single characters
+        // This handles cases like "a b c" becoming "abc"
+        if (/^[a-z0-9](\s+[a-z0-9])+$/i.test(transcript.trim())) {
+            transcript = transcript.replace(/\s+/g, '');
+        }
+        
+        // Handle single letter or digit (they often come with spaces)
+        if (transcript.trim().length === 1) {
+            transcript = transcript.trim();
+        }
+        
         document.getElementById(inputId).value = transcript;
         // Trigger search after voice input is complete
         searchData();
