@@ -239,6 +239,8 @@ function startVoiceInput(inputId) {
     recognition.onresult = (event) => {
         const transcript = event.results[0][0].transcript;
         document.getElementById(inputId).value = transcript;
+        // Trigger search after voice input is complete
+        searchData();
     };
 
     recognition.onerror = (event) => {
