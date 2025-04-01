@@ -237,7 +237,31 @@ function startVoiceInput(inputId) {
     };
 
     recognition.onresult = (event) => {
-        const transcript = event.results[0][0].transcript;
+        let transcript = event.results[0][0].transcript.trim().toLowerCase();
+        
+        // Process single letters and numbers
+        const singleLetterMap = {
+            'hey': 'a', 'bee': 'b', 'see': 'c', 'dee': 'd', 'ee': 'e',
+            'ef': 'f', 'gee': 'g', 'aitch': 'h', 'eye': 'i', 'jay': 'j',
+            'kay': 'k', 'el': 'l', 'em': 'm', 'en': 'n', 'oh': 'o',
+            'pee': 'p', 'queue': 'q', 'are': 'r', 'es': 's', 'tee': 't',
+            'you': 'u', 'vee': 'v', 'double you': 'w', 'ex': 'x',
+            'why': 'y', 'zed': 'z', 'zero': '0', 'one': '1', 'two': '2',
+            'three': '3', 'four': '4', 'five': '5', 'six': '6',
+            'seven': '7', 'eight': '8', 'nine': '9'
+        };
+
+        // Check for single letter/number pronunciations
+        if (singleLetterMap[transcript]) {
+            transcript = singleLetterMap[transcript];
+        } else if (transcript.length === 1) {
+            // Keep single character inputs as-is
+            transcript = transcript;
+        } else {
+            // Remove spaces and convert number words
+            transcript = transcript.replace(/\s+/g, '');
+        }
+
         document.getElementById(inputId).value = transcript;
         // Trigger search after voice input is complete
         searchData();
