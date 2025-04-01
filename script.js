@@ -239,16 +239,47 @@ function startVoiceInput(inputId) {
     recognition.onresult = (event) => {
         let transcript = event.results[0][0].transcript.trim().toLowerCase();
         
-        // Process single letters and numbers
+        // Process single letters and numbers with expanded pronunciations
         const singleLetterMap = {
-            'hey': 'a', 'bee': 'b', 'see': 'c', 'dee': 'd', 'ee': 'e',
-            'ef': 'f', 'gee': 'g', 'aitch': 'h', 'eye': 'i', 'jay': 'j',
-            'kay': 'k', 'el': 'l', 'em': 'm', 'en': 'n', 'oh': 'o',
-            'pee': 'p', 'queue': 'q', 'are': 'r', 'es': 's', 'tee': 't',
-            'you': 'u', 'vee': 'v', 'double you': 'w', 'ex': 'x',
-            'why': 'y', 'zed': 'z', 'zero': '0', 'one': '1', 'two': '2',
-            'three': '3', 'four': '4', 'five': '5', 'six': '6',
-            'seven': '7', 'eight': '8', 'nine': '9'
+            // Letter pronunciations
+            'hey': 'a', 'aye': 'a', 'ay': 'a', 'eh': 'a',
+            'bee': 'b', 'be': 'b',
+            'see': 'c', 'sea': 'c', 'si': 'c',
+            'dee': 'd', 'de': 'd',
+            'ee': 'e', 'e': 'e', 'eat': 'e',
+            'ef': 'f', 'eff': 'f',
+            'gee': 'g', 'ge': 'g', 'ji': 'g',
+            'aitch': 'h', 'age': 'h', 'ach': 'h', 'h': 'h',
+            'eye': 'i', 'i': 'i', 'ai': 'i',
+            'jay': 'j', 'je': 'j', 'jai': 'j',
+            'kay': 'k', 'ke': 'k', 'ca': 'k',
+            'el': 'l', 'elle': 'l',
+            'em': 'm', 'am': 'm',
+            'en': 'n', 'an': 'n',
+            'oh': 'o', 'owe': 'o', 'o': 'o',
+            'pee': 'p', 'pe': 'p',
+            'queue': 'q', 'cu': 'q', 'que': 'q',
+            'are': 'r', 'ar': 'r',
+            'es': 's', 'ass': 's',
+            'tee': 't', 'tea': 't', 'ti': 't',
+            'you': 'u', 'yu': 'u',
+            'vee': 'v', 've': 'v',
+            'double you': 'w', 'double u': 'w', 'dubya': 'w',
+            'ex': 'x', 'ax': 'x',
+            'why': 'y', 'ye': 'y',
+            'zed': 'z', 'zee': 'z', 'zi': 'z',
+            
+            // Number pronunciations
+            'zero': '0', 'oh': '0', 'nil': '0',
+            'one': '1', 'won': '1', 'want': '1',
+            'two': '2', 'to': '2', 'too': '2',
+            'three': '3', 'tree': '3',
+            'four': '4', 'for': '4', 'fore': '4',
+            'five': '5', 'phi': '5',
+            'six': '6', 'sex': '6',
+            'seven': '7', 'heaven': '7',
+            'eight': '8', 'ate': '8',
+            'nine': '9', 'niner': '9'
         };
 
         // Check for single letter/number pronunciations
