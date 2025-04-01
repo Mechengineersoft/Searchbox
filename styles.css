@@ -132,18 +132,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -154,6 +156,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -444,18 +447,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -466,6 +471,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -756,18 +762,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -778,6 +786,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -1068,18 +1077,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -1090,6 +1101,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -1380,18 +1392,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -1402,6 +1416,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -1692,18 +1707,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -1714,6 +1731,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -2004,18 +2022,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -2026,6 +2046,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -2316,18 +2337,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -2338,6 +2361,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -2628,18 +2652,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -2650,6 +2676,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -2940,18 +2967,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -2962,6 +2991,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -3252,18 +3282,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -3274,6 +3306,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -3564,18 +3597,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -3586,6 +3621,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -3876,18 +3912,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -3898,6 +3936,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -4188,18 +4227,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -4210,6 +4251,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -4500,18 +4542,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -4522,6 +4566,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -4812,18 +4857,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -4834,6 +4881,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -5124,18 +5172,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -5146,6 +5196,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -5436,18 +5487,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -5458,6 +5511,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -5748,18 +5802,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -5770,6 +5826,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -6060,18 +6117,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -6082,6 +6141,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
@@ -6372,18 +6432,20 @@ table {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
 }
 
 th, td {
     padding: 4px 8px;
     border: 1px solid #ddd;
     text-align: left;
-    min-width: 60px;
-    max-width: fit-content;
+    min-width: fit-content;
+    width: auto;
+    max-width: none;
     font-size: 14px;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 th {
@@ -6394,6 +6456,7 @@ th {
     word-wrap: break-word;
     min-height: 40px;
     vertical-align: middle;
+    padding: 8px;
 }
 
 tr:nth-child(odd) {
